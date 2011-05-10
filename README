@@ -1,0 +1,15 @@
+author: Diego Garcia-Olano
+url:    https://github.com/diegoolano/itunes_montage_maker
+
+Itunes Montage Maker
+
+This project is just a collection of scripts to get all the existing artwork you have in itunes and put them into one folder ( via getandsaveart.py ), and also see some statistics on those images, resize them to a standard width/height and create a large composition of all the images together ( makemontage.py) .  
+
+TODO:
+  This project can easily be adapted to allow for higher quality images.  It can also be made so that the user can pass in command line arguments for the two scripts as necessary.  The two scripts were created as a quick way to get all the art out of my itunes library and into one giant image before moving all the music i have to an external harddrive.  The project will be mainly useful to python developers or any other developer who feels change some of the values needed in them.
+
+REQURES:
+ PIL - Python Image Library - http://www.pythonware.com/library/pil/handbook/index.htm
+ eyeD3 - MP3 tags library - http://eyed3.nicfit.net/
+
+ Tested with Python 2.6.1 on Mac 0S X 10.6.6
